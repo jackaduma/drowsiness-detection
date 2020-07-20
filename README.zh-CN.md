@@ -1,18 +1,22 @@
-# **Drowsiness-Detection**
+# **睡意检测**
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/jackaduma/CycleGAN-VC2)
-
-[**中文说明**](./README.zh-CN.md) | [**English**](./README.md)
 
 
 This code is a **PyTorch** implementation for paper: [CycleGAN-VC2: Improved CycleGAN-based Non-parallel Voice Conversion](https://arxiv.org/abs/1904.04631]), a nice work on **Voice-Conversion/Voice Cloning**.
 
 
-a computer vision system that can automatically detect driver drowsiness in a real-time video stream and then play an alarm if the driver appears to be drowsy.
+一种计算机视觉系统，该系统可以自动检测实时视频流中的驾驶员睡意状况，然后在驾驶员感到困倦时发出警报
+
+**睡意检测**，通过检测眼皮对眼球的遮挡程度，判定是否困倦/有睡意/打瞌睡😂
+
+，通过检测眼皮对眼球的遮挡程度，判定是否困倦/有睡意/打瞌睡😂
+
+这项技术将对行业有所帮助，并且理想情况下可以减少与疲劳相关的事故。
 
 ------
 
-## **CycleGAN-VC2**
+## **使用OpenCV进行睡意检测**
 
 ### [**Project Page**](http://www.kecl.ntt.co.jp/people/kaneko.takuhiro/projects/cyclegan-vc2/index.html)
 
@@ -35,8 +39,8 @@ To advance the research on non-parallel VC, we propose CycleGAN-VC2, which is an
 
 ## **Table of Contents**
 
-- [**Drowsiness-Detection**](#drowsiness-detection)
-  - [**CycleGAN-VC2**](#cyclegan-vc2)
+- [**睡意检测**](#睡意检测)
+  - [**使用OpenCV进行睡意检测**](#使用opencv进行睡意检测)
     - [**Project Page**](#project-page)
   - [**Table of Contents**](#table-of-contents)
   - [**Requirement**](#requirement)
