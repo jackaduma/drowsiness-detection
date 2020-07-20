@@ -72,4 +72,4 @@ Samples:
 
 ## **License**
 
-[MIT](LICENSE) © Kun
+[Apache 2.0](LICENSE) © Kun
